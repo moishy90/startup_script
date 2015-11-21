@@ -2,6 +2,12 @@
 
 sudo apt-get install python-pip
 
+sudo apt-get install curl
+
+sudo apt-get install zsh
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 sudo pip install virtualenvwrapper
 
 sudo apt-get install vim
